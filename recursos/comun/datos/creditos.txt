@@ -1,0 +1,12 @@
+Conozco Nicaragua es una adaptación del proyecto "Conozco Uruguay"
+realizado por Byron Corrales y con colaboración de Karla Montenegro
+cualquier sugerencia escribir a byroncorrales@gmail.com
+
+Autor: Gabriel Eirea           Ayudante: Fabio Eirea
+Por favor enviar comentarios y sugerencias a geirea@gmail.com
+
+Este programa es software libre y desarrollado por la comunidad
+Por más información visitá http://ceibaljam.org
+
+Sonidos bajados de freesound.org: btn045.wav por junggle y boom1.wav por de NoiseCollector
+Fuentes bajadas de urbanfonts.com: AllCaps.ttf por BobFrantic y Share-Regular.ttf por anónimo

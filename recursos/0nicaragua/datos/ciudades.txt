@@ -1,0 +1,34 @@
+#Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
+# tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
+# capitales
+MANAGUA|243|538|1|45|0
+LEÓN|147|494|1|30|0
+CHINANDEGA|94|448|1|60|0
+MASAYA|264|563|1|40|0
+GRANADA|290|580|1|35|15
+JINOTEPE|244|587|1|0|15
+RIVAS|309|660|1|35|0
+SAN CARLOS|510|690|1|65|0
+JUIGALPA|387|543|1|50|0
+BOACO|345|477|1|35|0
+MATAGALPA|300|408|1|55|0
+JINOTEGA|295|373|1|50|0
+ESTELÍ|242|373|1|0|15
+OCOTAL|218|273|1|45|0
+BLUEFIELDS|667|523|1|35|15
+PUERTO CABEZAS|740|184|1|-95|0
+SOMOTO|211|300|1|40|0
+# ciudades
+# puntos historicos
+# puntos turisticos
+# cerros
+Cosigüina|23|384|5|45|15
+San Cristóbal|117|423|5|55|0
+Telica|155|453|5|30|-10
+Cerro Negro|164|463|5|55|-5
+El Hoyo|175|473|5|-45|0
+Momotombo|199|479|5|50|0
+Masaya|267|555|5|35|0
+Mombacho|297|575|5|45|0
+Concepción|355|627|5|50|0
+Maderas|377|643|5|35|0

@@ -1,0 +1,26 @@
+# Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# departamentos
+Managua|225|200|552|0
+Matagalpa|160|322|403|0
+Estelí|210|206|350|0
+Jinotega|150|385|236|0
+Madriz|205|239|292|0
+Nueva Segovia|200|254|258|0
+Río San Juan|190|552|688|-30
+Chontales|180|446|552|0
+Boaco|170|348|480|0
+Masaya|230|301|550|0
+Carazo|235|236|590|0
+Granada|240|337|597|0
+Rivas|245|302|656|0
+León|220|167|447|0
+Chinandega|215|80|406|0
+RAAS|120|557|485|0
+RAAN|110|591|217|0
+# paises limitrofes
+Honduras|100|284|72|0
+Costa Rica|250|426|761|0
+# Oceanos
+Oceano Pácifico|140|98|642|0
+Oceano Atlantico|130|756|568|90
+# fin

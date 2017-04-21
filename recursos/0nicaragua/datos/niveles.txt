@@ -1,0 +1,150 @@
+# Configuración de niveles
+# Formato:
+# Prefijo indica una posible parte inicial de la pregunta
+# Sufijo indica una posible parte final de la pregunta
+# Cada nivel empieza con su nombre entre parentesis rectos
+# Variables:
+#  - dibujoInicial lista de cosas a dibujar en el mapa al inicio del nivel
+#     lineasDepto,capitales
+#  - nombreInicial lista de cosas a etiquetar en el mapa al inicio del nivel
+#     deptos,capitales
+# Cada pregunta es una linea que se inicia con Pregunta =
+# sigue el texto de la pregunta (lineas separadas con \)
+# sigue el tipo de respuesta y el ID de la respuesta correcta
+# finalmente el texto de ayuda si el estudiante se equivoca dos veces
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro, 6 ruta
+#  ID de respuesta: string con el nombre
+#  texto de ayuda: string (lineas separadas con \)
+
+Prefijo = Tenemos que buscar\una pieza de mi nave en
+Prefijo = Hay una pieza\de mi nave en
+Prefijo = Según mi información\tenemos que buscar en
+Prefijo = Tenemos que\ir hasta
+Prefijo = Una pieza de mi\cohete cayó en
+
+Sufijo = ¿Podés señalar dónde es?
+Sufijo = ¿Dónde queda?
+Sufijo = ¿Vamos hasta ahí?
+Sufijo = ¿Me llevás?
+Sufijo = ¿Podés mostrarme dónde es?
+
+Correcto = ¡Muy bien!
+Correcto = ¡Genial!
+Correcto = ¡Lo encontraste!
+Correcto = ¡Sí!
+
+Mal = No, intentá de nuevo
+Mal = Acá no está
+Mal = Parece que no es acá
+Mal = Seguí probando...
+
+Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
+Despedida = Mi nave está pronta.\¡Chau y gracias por ayudarme!
+Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
+
+[Departamentos]
+dibujoInicial = lineasDepto
+nombreInicial = 
+Pregunta = el departamento\de Managua|1|Managua|Dále, probá de nuevo
+Pregunta = el departamento\de Masaya|1|Masaya|Dále, probá de nuevo
+Pregunta = el departamento\de Matagalpa|1|Matagalpa|Dále, probá de nuevo
+Pregunta = el departamento\de Estelí|1|Estelí|Dále, probá de nuevo
+Pregunta = el departamento\de Chinandega|1|Chinandega|Dále, probá de nuevo
+Pregunta = el departamento\de León|1|León|Dále, probá de nuevo
+Pregunta = el departamento\de Madriz|1|Madriz|Dále, probá de nuevo
+Pregunta = el departamento\de Nueva Segovia|1|Nueva Segovia|Dále, probá de nuevo
+Pregunta = el departamento\de Granada|1|Granada|Dále, probá de nuevo
+Pregunta = el departamento\de Carazo|1|Carazo|Dále, probá de nuevo
+Pregunta = el departamento\de RAAN|1|RAAN|Dále, probá de nuevo
+Pregunta = el departamento\de RAAS|1|RAAS|Dále, probá de nuevo
+Pregunta = el departamento\de Rivas|1|Rivas|Dále, probá de nuevo
+Pregunta = el departamento\de Río San Juan|1|Río San Juan|Dále, probá de nuevo
+Pregunta = el departamento\de Boaco|1|Boaco|Dále, probá de nuevo
+Pregunta = el departamento\de Chontales|1|Chontales|Dále, probá de nuevo
+Pregunta = el departamento\de Jinotega|1|Jinotega|Dále, probá de nuevo
+
+
+[Cabecera Departamental]
+dibujoInicial = lineasDepto, capitales
+nombreInicial = 
+Pregunta = El Municipio\de Managua|2|MANAGUA|Dále, probá de nuevo
+Pregunta = El Municipio\de Chinandega|2|CHINANDEGA|Dále, probá de nuevo
+Pregunta = El Municipio\de Estelí|2|ESTELÍ|Dále, probá de nuevo
+Pregunta = El Municipio\de Matagalpa|2|MATAGALPA|Dále, probá de nuevo
+Pregunta = El Municipio\de León|2|LEÓN|Dále, probá de nuevo
+Pregunta = El Municipio\de Jinotepe|2|JINOTEPE|Dále, probá de nuevo
+Pregunta = El Municipio\de Bluefields|2|BLUEFIELDS|Dále, probá de nuevo
+Pregunta = El Municipio\de Jinotega|2|JINOTEGA|Dále, probá de nuevo
+Pregunta = El Municipio\de Somoto|2|SOMOTO|Dále, probá de nuevo
+Pregunta = El Municipio\de Ocotal|2|OCOTAL|Dále, probá de nuevo
+Pregunta = El Municipio\de Rivas|2|RIVAS|Dále, probá de nuevo
+Pregunta = El Municipio\de Puerto Cabezas|2|PUERTO CABEZAS|Dále, probá de nuevo
+Pregunta = El Municipio\de San Carlos|2|SAN CARLOS|Dále, probá de nuevo
+Pregunta = El Municipio\de Boaco|2|BOACO|Dále, probá de nuevo
+Pregunta = El Municipio\de Juigalpa|2|JUIGALPA|Dále, probá de nuevo
+Pregunta = El Municipio\de Masaya|2|MASAYA|Dále, probá de nuevo
+Pregunta = El Municipio\de Granada|2|GRANADA|Dále, probá de nuevo
+
+[Volcanes]
+dibujoInicial = lineasDepto, cerros
+nombreInicial = 
+Pregunta = El Volcan\de Cosigüina|5|Cosigüina|Dále, probá de nuevo
+Pregunta = El Volcan\de San Cristóbal|5|San Cristóbal|Dále, probá de nuevo
+Pregunta = El Volcan\de Telica|5|Telica|Dále, probá de nuevo
+Pregunta = El Volcan\de Cerro Negro|5|Cerro Negro|Dále, probá de nuevo
+Pregunta = El Volcan\de El Hoyo|5|El Hoyo|Dále, probá de nuevo
+Pregunta = El Volcan\de Momotombo|5|Momotombo|Dále, probá de nuevo
+Pregunta = El Volcan\de Masaya|5|Masaya|Dále, probá de nuevo
+Pregunta = El Volcan\de Mombacho|5|Mombacho|Dále, probá de nuevo
+Pregunta = El Volcan\de Concepción|5|Concepción|Dále, probá de nuevo
+Pregunta = El Volcan\de Maderas|5|Maderas|Dále, probá de nuevo
+
+[Trivias conoce a tu Páis]
+dibujoInicial = lineasDepto
+nombreInicial = deptos
+Pregunta = el Departamento que tiene el \lago de Apanás|1|Jinotega|Queda al norte \del país
+Pregunta = el Departamento con menor\ territorio del Páis|1|Masaya|
+Pregunta = el Departamento que tiene una \isla con dos volcanes|1|Rivas|Comienza con la letra "R"
+Pregunta = el Departamento que se caracteriza\ por su ganadería|1|Chontales|Pertenece a la zona central
+Pregunta = el Departamento que representa \la capital de Nicaragua|1|Managua|Esta en la zona pácifica
+Pregunta = dónde se ubica el golfo de \Fonseca|1|Chinandega|Es fronterizo con Honduras
+Pregunta = dónde se ubica el cabo \gracias a Dios|1|RAAN|Esta en el atlántico
+Pregunta = dónde se ubica la \Península de Cosigüina|1|Chinandega|Es fronterizo con Honduras
+Pregunta = el departamento conocido como \La Ciudad de Las Flores|1|Masaya|Comienza con la letra "M"
+Pregunta = el departamento conocido como \La Ciudad de Las Brumas|1|Jinotega|Se caracteriza por \ el cultivo de café
+Pregunta = el departamento conocido como \la Cuidad de los Mangos|1|Rivas|Esta en la zona pácifica
+Pregunta = el departamento dónde las piedras\ son de Cuajada y los ríos de \Leche|1|Chontales|se caracteriza\ por su ganadería
+Pregunta = el departamento conocido como la\ Perla del Septentrión|1|Matagalpa|Comienza con la letra "M"
+Pregunta = el departamento conocido como la \Ciudad Universitaria|1|León|Esta en la zona pácifica
+Pregunta = el departamento en donde se \encuentra ubicado el volcán\ turístico Mombacho|1|Granada| Comienza con la letra "G"
+Pregunta = el departamento que tiene como \cabecera departamental Somoto|1|Madriz|Se encuentra al norte
+Pregunta = el departamento que tiene como \cabecera departamental Ocotal|1|Nueva Segovia|Es fronterizo con \Honduras
+Pregunta = el departamento que tiene como \cabecera departamental Jinotepe|1|Carazo|Comienza con la letra "C"
+Pregunta = el departamento que tiene como \cabecera departamental Juigalpa|1|Chontales|se caracteriza\ por su ganadería
+Pregunta = el departamento que tiene como \cabecera departamental Bluefields|1|RAAS|Pertenece a la zona atlántica
+Pregunta = el departamento que tiene como \cabecera departamental Puerto Cabezas|1|RAAN|Pertenece a la zona atlántica
+Pregunta = el departamento que tiene como \cabecera departamental San Carlos|1|Río San Juan| es fronterizo con \ Costa Rica
+Pregunta = el departamento con \más municipios|1|Chontales|Esta en la zona central
+Pregunta = dónde están ubicadas las \Playas la Peñitas y Poneloya|1|León|Esta en la zona pácifica
+
+[Trivias Históricas y Culturales]
+dibujoInicial = lineasDepto
+nombreInicial = deptos
+Pregunta = el departamento en donde se\ celebra el palo de mayo|1|RAAS|Pertenece a la zona atlántica
+Pregunta = el departamento en donde se\ libro la batalla de San Jancinto|1|Managua|es la capital del país
+Pregunta = donde fue la primera capital \de Nicaragua|1|León|se conoce como la ciudad universitaria
+Pregunta = dónde es originario el baile del\ viejo y la vieja|1|Masaya|Comienza con la letra "M"
+Pregunta = el departamento donde está ubicado\ el Castillo Inmaculada Concepción|1|Río San Juan|es fronterizo con \ Costa Rica
+Pregunta = el departamento dónde comenzó\ la Gritería a la vigen|1|León|Esta en la zona pácifica
+Pregunta = el departamento dónde nacieron \los poetas Azarías H. Pallais y \Alfonso Cortés|1|León|Esta en la zona pácifica
+Pregunta = el departamento dónde nació el \reconocido poeta Rubén Darío|1|Matagalpa|se caracteriza por el cultivo de cafe
+Pregunta = dónde nació el vigorón como \una comida tradicional|1|Granada| Comienza con la letra "G"
+Pregunta = el departamento dónde se celebra las \fiestas patronales más largas \de Nicaragua|1|Masaya| tiene el menor territorio
+Pregunta = el departamento dónde nació el \cantautor y compositor \Carlos Mejía Godoy|1|Madriz| al norte del país
+Pregunta = el departamento dónde nació la leyenda del Punche de Oro|1|León| Comienza con la letra "M"
+
+#[Trivias Volcanes]
+#dibujoInicial = lineasDepto
+#nombreInicial = cerros
+#Pregunta = el volcán con mayor altura\ de Nicaragua|5|San Cristóbal|Esta en Chinandega
+#Pregunta = el volcán qué tuvo su última \erupción en 1859|5|Cosigüina|Esta en Chinandega
